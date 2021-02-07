@@ -5,22 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- external Css link -->
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Hungry Monstar</title>
 </head>
 
 <body>
-    <div class="d-flex justify-content-center mt-5 pt-5">
-        <div class="mx-2 col-md-3"><input class="form-control" type="text" id="input-meal"></div>
+    <header>
+        <div class="nav-left-side"><img src="logo.png" alt="" style="height:70px;">
+            <h3 style="font-weight:bold">Hungry Monstar</h3>
+        </div>
+        <div class="nav-items">
+            <div class="me-3">Home</div>
+            <div class="mx-3">About</div>
+            <div class="mx-3">Recipes</div>
+            <div class="ms-3">Blog</div>
+        </div>
+    </header>
+
+    <!-- search section -->
+    <div class="d-flex justify-content-center mt-2 pt-5">
+        <div class="mx-2 col-md-5"><input class="form-control bg-light" type="text" id="input-meal"
+                placeholder="Search for Meal...."></div>
         <button class="btn btn-danger" id="submit-btn">Search</button>
     </div>
-    <div id="search-result" class="mt-3" ></div>
-    <div id="meals-info" class="mt-5"></div>
-    <div id="meals-item" class="mt-5 mx-5 pt-3"></div>
 
+    <!-- search result shows either your inputed meal available or not -->
+    <div id="search-result" class="mt-3"></div>
+
+    <!-- meals info show the details ingredients of your clicked food -->
+    <div id="meals-info" class="mt-5"></div>
+
+    <!-- meals items shows how many meals are available of your inputed meal -->
+    <div id="meals-item" class="mt-5 mx-5 pt-3"></div>
+    
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    
+        <!-- external javascript -->
     <script src="meal.js"></script>
 </body>
 

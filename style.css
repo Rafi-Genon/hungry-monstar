@@ -1,3 +1,21 @@
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-left-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+body{
+    width: 80%;
+    margin: auto;
+}
 #meals-item{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -6,13 +24,13 @@
 .meal-thubnail-title{
     border-radius: 1em;
     width: 100%;
-    background-color: #f1f1f1b6;
+    background-color: #f3f3f3bb;
 }
 .meal-thubnail-title img{
     border-radius: 1em;
     width: 100%;
 }
-.meal-thubnail-title h4{
+.meal-thubnail-title h5{
     text-align: center;
 }
 #meals-info{
@@ -20,7 +38,7 @@
     margin: auto;
 }
 .meal-details{
-    height: 700px;
+    height: 780px;
     border-radius: 1em;
 }
 .meal-details img{
@@ -31,4 +49,7 @@
 span{
     background-color: #fbff00;
     font-size: 14px;
+}
+.meal-thubnail-title:hover{
+    background-color: #ff6868be;
 }
