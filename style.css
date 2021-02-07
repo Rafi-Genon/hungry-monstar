@@ -1,0 +1,17 @@
+#meals-item{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5%;
+}
+.meal-thubnail-title{
+    border-radius: 1em;
+    width: 100%;
+    background-color: #f1f1f18f;
+}
+.meal-thubnail-title img{
+    border-radius: 1em;
+    width: 100%;
+}
+.meal-thubnail-title h3{
+    text-align: center;
+}
