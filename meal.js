@@ -36,12 +36,12 @@ const renderMealDetails = info => {
     <img src="${meal.strMealThumb}"/>
     <h3 class="py-3 fw-bold">${meal.strMeal}</h3>
     <h5 class="fw-bold pb-1">Ingredients</h5>
-    <p class="text-secondary">${meal.strIngredient1}</p>
-    <p class="text-secondary">${meal.strIngredient2}</p>
-    <p class="text-secondary">${meal.strIngredient3}</p>
-    <p class="text-secondary">${meal.strIngredient4}</p>
-    <p class="text-secondary">${meal.strIngredient5}</p>
-    <p class="text-secondary">${meal.strIngredient6}</p>
+    <p class="text-secondary"><i class="fa fa-check-circle" style="font-size:22px;color:red"></i>  ${meal.strIngredient1}</p>
+    <p class="text-secondary"><i class="fa fa-check-circle" style="font-size:22px;color:red"></i>  ${meal.strIngredient2}</p>
+    <p class="text-secondary"><i class="fa fa-check-circle" style="font-size:22px;color:red"></i>  ${meal.strIngredient3}</p>
+    <p class="text-secondary"><i class="fa fa-check-circle" style="font-size:22px;color:red"></i>  ${meal.strIngredient4}</p>
+    <p class="text-secondary"><i class="fa fa-check-circle" style="font-size:22px;color:red"></i>  ${meal.strIngredient5}</p>
+    <p class="text-secondary"><i class="fa fa-check-circle" style="font-size:22px;color:red"></i>  ${meal.strIngredient6}</p>
 </div>`
     )
 }
