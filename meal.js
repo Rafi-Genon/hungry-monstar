@@ -32,16 +32,16 @@ const titleClicked = id => {
 
 const renderMealDetails = info => {
     mealsInfo.innerHTML = info.meals.map(meal => `
-<div class="meal-details">
+<div class="meal-details shadow p-2">
     <img src="${meal.strMealThumb}"/>
-    <h3 class="">${meal.strMeal}</h3>
-    <h5>Ingredients</h5>
-    <p>${meal.strIngredient1}</p>
-    <p>${meal.strIngredient2}</p>
-    <p>${meal.strIngredient3}</p>
-    <p>${meal.strIngredient4}</p>
-    <p>${meal.strIngredient5}</p>
-    <p>$${meal.strIngredient6}</p>
+    <h3 class="py-3 fw-bold">${meal.strMeal}</h3>
+    <h5 class="fw-bold pb-1">Ingredients</h5>
+    <p class="text-secondary">${meal.strIngredient1}</p>
+    <p class="text-secondary">${meal.strIngredient2}</p>
+    <p class="text-secondary">${meal.strIngredient3}</p>
+    <p class="text-secondary">${meal.strIngredient4}</p>
+    <p class="text-secondary">${meal.strIngredient5}</p>
+    <p class="text-secondary">${meal.strIngredient6}</p>
 </div>`
     )
 }

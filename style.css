@@ -21,11 +21,10 @@
 }
 .meal-details{
     height: 700px;
-    border: 2px red solid;
+    border-radius: 1em;
 }
 .meal-details img{
     height: 50%;
     width: 100%;
     border-radius: 1em;
-    ;
 }
