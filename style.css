@@ -6,12 +6,26 @@
 .meal-thubnail-title{
     border-radius: 1em;
     width: 100%;
-    background-color: #f1f1f18f;
+    background-color: #f1f1f1b6;
 }
 .meal-thubnail-title img{
     border-radius: 1em;
     width: 100%;
 }
-.meal-thubnail-title h3{
+.meal-thubnail-title h4{
     text-align: center;
+}
+#meals-info{
+    width: 60%;
+    margin: auto;
+}
+.meal-details{
+    height: 700px;
+    border: 2px red solid;
+}
+.meal-details img{
+    height: 50%;
+    width: 100%;
+    border-radius: 1em;
+    ;
 }
